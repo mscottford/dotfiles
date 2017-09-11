@@ -69,8 +69,6 @@ export PATH="$PATH:$GOPATH/bin"
 # plenv support
 if which plenv > /dev/null; then eval "$(plenv init -)"; fi
 
-export HOMEBREW_GITHUB_API_TOKEN="3b2e9b4b11768ee5ab38fa441b347f2c61057ee4"
-
 # pyenv support
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
